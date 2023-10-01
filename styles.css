@@ -1,0 +1,112 @@
+body 
+{
+ background-color: #f3f3f4;
+}
+
+.container-fluid 
+{
+ margin-top: 8px; 
+ margin-left: 16px;
+ margin-right: 16px;
+}
+
+.navbar {
+ background-color: #000000;
+}
+
+.navbar-brand {
+ color: #ffffff;
+ font-family:'Comic Sans MS ', cursive;
+ font-size: 50px;
+ font-weight: bold;
+}
+
+.navbar-brand:hover {
+ color: #ffffff;
+ font-size: 35px;
+}
+
+.navbar-toggler-icon {
+ background-color: white;
+}
+
+.nav-link {
+ color: white !important;
+ font-size: 20px;
+}
+
+.form-control{
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.btn-outline-success {
+ font-size: 20px;
+ font-weight: bold;
+ border-width: 2.5px;
+}
+
+.card {
+ margin-top: 20px;
+ box-shadow: 10px 8px rgba(25, 25, 100, 0.1);
+}
+
+.card:hover {
+ background-color: rgba(255, 255, 255, 0.1);
+ transform: scale(1.05);
+ transition: transform 0.5s ease;
+}
+
+.btn-success {
+ background-color: #28a745;
+ border-color: #000000;
+ border-radius: 15px;
+}
+
+.btn-success:hover {
+ background-color: #218838;
+}
+
+.btn-wide{
+  width: 90px;
+}
+
+.btn-danger {
+ background-color: #dc3545;
+ border-color: #000000;
+ border-radius: 8px;
+}
+
+.btn-danger:hover {
+ background-color: #bd2130;
+ transform: scale(1.1);
+}
+
+iframe {
+  width: 25px;
+  border: 5px solid #000000;
+  border-radius: 8px;
+  margin-bottom: 0;
+}
+
+.azure-bot-title {
+ margin-bottom: 10px;
+}
+
+.my-3{
+  display: flex;
+}
+
+.left{
+  width: 75vw;
+  margin-right: 5vw;
+}
+
+.right{
+  width: 25vw ;
+}
+
+.welcome{
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
