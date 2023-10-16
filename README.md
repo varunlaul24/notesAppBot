@@ -1,5 +1,9 @@
 # NotesAppBot
-Final FRT Project
+**Final FRT Project**
+
+**Project Demo Video URL:** https://www.youtube.com/watch?v=14zMpYGPIUs
+
+**Deployement on AZURE static web app:** https://delightful-water-0584dd510.3.azurestaticapps.net
 
 This is a simple web-based notes application built with HTML, CSS, and JavaScript. The app allows users to add, delete, and search notes. Additionally, it includes a chat interface with a Magic Assistant.
 
