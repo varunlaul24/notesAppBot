@@ -39,20 +39,31 @@ Interaction with External APIs: Embeds an iframe to integrate a chat interface w
 
 The chat interface embedded in the right section of application is powered by an Azure Bot. This bot is created using the Azure Bot Framework, providing conversational abilities to interact with users.
 
+<img width="600" alt="Screenshot 2023-10-17 at 10 59 45 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/3693743e-2200-4072-8fa3-c22b7385dc61">  
+<br> <br>
+
 - Azure Static Web Apps
 
 Azure Static Web Apps can simplify the deployment and hosting of static web applications. Instead of deploying app on traditional web hosting, we can use Azure Static Web Apps for a serverless hosting solution. It integrates with GitHub, providing a seamless deployment process whenever we push changes to our repository.
+
+<img width="600" alt="Screenshot 2023-10-17 at 11 03 01 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/c6eb2b31-5684-44a1-a1e7-345d137949c6">
+<br> <br>
 
 - Azure AI Language
 
 The Language service is a part of the Azure Cognitive Services offerings that can perform advanced natural language processing over raw text. It includes a custom question answering feature that enables us to create a knowledge base of question and answer pairs that can be queried using natural language input.
 
+<img width="600" alt="Screenshot 2023-10-17 at 11 00 40 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/6ac8053f-9ef4-40a0-9312-c87057e00933">
+<br> <br>
 
 - Azure Cognitive Search
-  
+
 Azure Cognitive Search provides the infrastructure and tools to create search solutions that extract data from various structured, semi-structured, and unstructured documents.
 
-<img width="500" alt="Screenshot 2023-10-17 at 7 29 39 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/831c7840-c4b3-459d-b7a1-b468667aa5d0">
+<img width="600" alt="Screenshot 2023-10-17 at 7 29 39 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/831c7840-c4b3-459d-b7a1-b468667aa5d0">
+
+<img width="600" alt="Screenshot 2023-10-17 at 11 01 23 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/b865ae5c-9013-4c7e-af25-83302ec24471">
+<br>
 
 ## Question Answering Knowledge Base
 <img width="500" alt="Screenshot 2023-10-17 at 9 05 05 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/5560d689-8d0e-4cd3-80fb-bc2bae82f20f">
