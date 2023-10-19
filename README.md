@@ -1,13 +1,16 @@
 # NotesAppBot
+**QuickNotes: The Magic App**
+
 **FRT Project**
 
 **Project Demo Video URL:** 
-- https://www.youtube.com/watch?v=14zMpYGPIUs
-- https://www.loom.com/share/6a82a649bc0a4c6ebf060c5ec3620284?t=183&sid=b8716bdb-418b-4677-95aa-bed290cd83a5
+- https://youtu.be/Kppl_Rw00Cw
+- https://www.loom.com/share/a9c80c8d4d93439196d28a7807aa8b13
+- https://drive.google.com/file/d/1d9N1RRyItfxYKK8rryBWotCxt9yt3Prx/view?usp=sharing
 
 **Deployement on AZURE static web app:** https://delightful-water-0584dd510.3.azurestaticapps.net
 
-This is a simple web-based notes application built with HTML, CSS, and JavaScript. The app allows users to add, delete, and search notes. Additionally, it includes a chat interface with a Magic Assistant.
+This is a simple web-based notes application built with HTML, CSS, and JavaScript. This Magic Notes App aims to provide users with a user-friendly digital notes app for quick and easy note-taking, organisation, and retrieval. Additionally, it includes a chat interface with a Magic Assistant. In the digital age, individuals often find themselves in need of a seamless and efficient way to capture and organize their thoughts, ideas, and important information. Traditional methods of note-taking may lack the flexibility and accessibility required in today's dynamic lifestyle. Users seek a user-friendly and feature-rich digital solution that allows them to create, store, and manage their notes effortlessly, enhancing productivity and ensuring that valuable information is readily available when needed.
 
 ## Technologies Used
 
@@ -35,28 +38,34 @@ Search Functionality: Implements a search feature that dynamically filters displ
 
 Interaction with External APIs: Embeds an iframe to integrate a chat interface with a Magic Assistant using the Bot Framework Web Chat API.
 
-- Azure AI Bot
+- Azure AI Bot Service
 
 The chat interface embedded in the right section of application is powered by an Azure Bot. This bot is created using the Azure Bot Framework, providing conversational abilities to interact with users.
 
+Steps involved in building a Azure AI Bot Service which provides a framework for developing, publishing, and managing bots on Azure:
+- Automatic bot creation functionality, enables us to create a bot for our deployed knowledge base and publish it as an Azure AI Bot Service application.
+- Testing the bot in an interactive test interface.
+- Connecting channels
+
+<img width="600" alt="Screenshot 2023-10-20 at 4 43 52 AM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/e4326ae2-1e12-4337-870f-5ea8651f0dda">
 <img width="600" alt="Screenshot 2023-10-17 at 10 59 45 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/3693743e-2200-4072-8fa3-c22b7385dc61">  
 <br> <br>
 
-- Azure Static Web Apps
+- Azure Static Web App Service
 
 Azure Static Web Apps can simplify the deployment and hosting of static web applications. Instead of deploying app on traditional web hosting, we can use Azure Static Web Apps for a serverless hosting solution. It integrates with GitHub, providing a seamless deployment process whenever we push changes to our repository.
 
 <img width="600" alt="Screenshot 2023-10-17 at 11 03 01 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/c6eb2b31-5684-44a1-a1e7-345d137949c6">
 <br> <br>
 
-- Azure AI Language
+- Azure AI Language Service
 
 The Language service is a part of the Azure Cognitive Services offerings that can perform advanced natural language processing over raw text. It includes a custom question answering feature that enables us to create a knowledge base of question and answer pairs that can be queried using natural language input.
 
 <img width="600" alt="Screenshot 2023-10-17 at 11 00 40 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/6ac8053f-9ef4-40a0-9312-c87057e00933">
 <br> <br>
 
-- Azure Cognitive Search
+- Azure Cognitive Search Service
 
 Azure Cognitive Search provides the infrastructure and tools to create search solutions that extract data from various structured, semi-structured, and unstructured documents.
 
@@ -66,6 +75,13 @@ Azure Cognitive Search provides the infrastructure and tools to create search so
 <br>
 
 ## Question Answering Knowledge Base
+
+Steps involved in building a Question Answering knowledge base:
+- Provision a Language resource
+- Define questions and answers
+- Test the knowledge base
+- Deploy the knowledge base
+
 <img width="600" alt="Screenshot 2023-10-17 at 9 05 05 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/5560d689-8d0e-4cd3-80fb-bc2bae82f20f">
 
 ## Getting Started
@@ -89,6 +105,22 @@ Azure Cognitive Search provides the infrastructure and tools to create search so
 
 - **Bot Service:** Engage in a chat with the Magic Assistant to get assistance or information.
 <img width="250" alt="4" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/0bb40b72-d46a-4825-8c7a-49a661096c81">
+
+## Features
+1. User-Friendly Interface: This makes it easy for users to interact with the application.
+
+2. Effortless Note-Taking: Users can quickly jot down notes using a simple form. 
+
+3. Organised Storage: All notes are stored in the user's browser localStorage, ensuring easy and secure access to previously saved notes without the need for account creation.
+
+4. Search Functionality: Users can search for specific notes by entering keywords. 
+
+5. Delete Confirmation: To prevent accidental data loss, the app incorporates a delete confirmation prompt feature. 
+
+6. Responsive Design: A consistent and enjoyable user experience across various devices.
+
+7. Integrated Bot:
+The Magic Assistant chatbot provides users with an interactive and intuitive way to seek assistance or engage in conversations, adding an extra layer of functionality and convenience to the note-taking experience.
 
 ## Git Commands used to deploy this app on Github
 git init
