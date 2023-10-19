@@ -1,5 +1,5 @@
 # NotesAppBot
-**Final FRT Project**
+**FRT Project**
 
 **Project Demo Video URL:** 
 - https://www.youtube.com/watch?v=14zMpYGPIUs
@@ -66,7 +66,7 @@ Azure Cognitive Search provides the infrastructure and tools to create search so
 <br>
 
 ## Question Answering Knowledge Base
-<img width="500" alt="Screenshot 2023-10-17 at 9 05 05 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/5560d689-8d0e-4cd3-80fb-bc2bae82f20f">
+<img width="600" alt="Screenshot 2023-10-17 at 9 05 05 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/5560d689-8d0e-4cd3-80fb-bc2bae82f20f">
 
 ## Getting Started
 
