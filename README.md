@@ -1,7 +1,7 @@
 # NotesAppBot
 **QuickNotes: The Magic App**
 
-**FRT Project**
+**Microsoft FRT Project**
 
 **Project Demo Video URL:** 
 - https://youtu.be/Kppl_Rw00Cw
