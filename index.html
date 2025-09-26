@@ -38,7 +38,6 @@
   <h1 class="welcome">Welcome to Notes App!</h1>
 
   <div class="container my-3">
-    <!-- 'my-3' => Bootstrap class => Margin of 3 in y axis -->
 
     <div class="mainpage left">
       <div class="card">
@@ -69,17 +68,12 @@
 
     </div>
 
-
     <div class="mainpage right">
       <div class="azure-bot-container">
-        <h2 class="bot-title">Chat with Magic Assistant</h2>
-        <iframe title="Magic Assistant Chat"
-          src='https://webchat.botframework.com/embed/BotinstanceNotes-bot?s=d3nlWeR2wLI.DjP6P7yK40Wp_n8WmuH0vtm0qicuJTcp7s8bokLwQGs'
-          style='min-width: 10px; width: 100%; min-height: 60vh;'>
-        </iframe>
+        <h2 class="bot-title">Magic Assistant</h2>
+        <div id="webchat" role="main" style="height: 60vh; width: 100%;"></div>
       </div>
     </div>
-
 
   </div>
 
@@ -100,3 +94,28 @@
 </body>
 
 </html>
+
+<script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+<script>
+  async function initBot() {
+    try {
+      // Calling backend to get a Direct Line token
+      const res = await fetch("/api/token");
+      const { token } = await res.json();
+
+      window.WebChat.renderWebChat(
+        {
+          directLine: window.WebChat.createDirectLine({ token }),
+          userID: "user_" + Math.random().toString(36).substr(2, 9),
+          username: "Varun",
+          locale: "en-US"
+        },
+        document.getElementById("webchat")
+      );
+    } catch (err) {
+      console.error("Bot init error:", err);
+    }
+  }
+
+  initBot();
+</script>

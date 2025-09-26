@@ -1,0 +1,26 @@
+{
+  "name": "notesappbot",
+  "version": "1.0.0",
+  "description": "**QuickNotes: The Magic App**",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varunlaul24/notesAppBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varunlaul24/notesAppBot/issues"
+  },
+  "homepage": "https://github.com/varunlaul24/notesAppBot#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}
