@@ -8,8 +8,6 @@
 - https://www.loom.com/share/a9c80c8d4d93439196d28a7807aa8b13
 - https://drive.google.com/file/d/1d9N1RRyItfxYKK8rryBWotCxt9yt3Prx/view?usp=sharing
 
-**Deployement on AZURE static web app:** https://delightful-water-0584dd510.3.azurestaticapps.net
-
 This is a simple web-based notes application built with HTML, CSS, and JavaScript. This Magic Notes App aims to provide users with a user-friendly digital notes app for quick and easy note-taking, organisation, and retrieval. Additionally, it includes a chat interface with a Magic Assistant. In the digital age, individuals often find themselves in need of a seamless and efficient way to capture and organize their thoughts, ideas, and important information. Traditional methods of note-taking may lack the flexibility and accessibility required in today's dynamic lifestyle. Users seek a user-friendly and feature-rich digital solution that allows them to create, store, and manage their notes effortlessly, enhancing productivity and ensuring that valuable information is readily available when needed.
 
 ## Technologies Used
@@ -38,6 +36,8 @@ Search Functionality: Implements a search feature that dynamically filters displ
 
 Interaction with External APIs: Embeds an iframe to integrate a chat interface with a Magic Assistant using the Bot Framework Web Chat API.
 
+- NodeJS
+
 - Azure AI Bot Service
 
 The chat interface embedded in the right section of application is powered by an Azure Bot. This bot is created using the Azure Bot Framework, providing conversational abilities to interact with users.
@@ -49,13 +49,6 @@ Steps involved in building a Azure AI Bot Service which provides a framework for
 
 <img width="600" alt="Screenshot 2023-10-20 at 4 43 52 AM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/e4326ae2-1e12-4337-870f-5ea8651f0dda">
 <img width="600" alt="Screenshot 2023-10-17 at 10 59 45 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/3693743e-2200-4072-8fa3-c22b7385dc61">  
-<br> <br>
-
-- Azure Static Web App Service
-
-Azure Static Web Apps can simplify the deployment and hosting of static web applications. Instead of deploying app on traditional web hosting, we can use Azure Static Web Apps for a serverless hosting solution. It integrates with GitHub, providing a seamless deployment process whenever we push changes to our repository.
-
-<img width="600" alt="Screenshot 2023-10-17 at 11 03 01 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/c6eb2b31-5684-44a1-a1e7-345d137949c6">
 <br> <br>
 
 - Azure AI Language Service
@@ -83,11 +76,6 @@ Steps involved in building a Question Answering knowledge base:
 - Deploy the knowledge base
 
 <img width="600" alt="Screenshot 2023-10-17 at 9 05 05 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/5560d689-8d0e-4cd3-80fb-bc2bae82f20f">
-
-## Getting Started
-
-1. Clone the repository.
-2. Open the `index.html` file in a web browser.
 
 ## User Interface
 <img width="500" alt="Screenshot 2023-10-17 at 7 29 39 PM" src="https://github.com/varunlaul24/NotesAppBot/assets/90101931/198000d4-b330-4fdb-a35c-8db0bff0c733">
@@ -122,18 +110,6 @@ Steps involved in building a Question Answering knowledge base:
 7. Integrated Bot:
 The Magic Assistant chatbot provides users with an interactive and intuitive way to seek assistance or engage in conversations, adding an extra layer of functionality and convenience to the note-taking experience.
 
-## Git Commands used to deploy this app on Github
-git init
-
-git add .
-
-git commit -m "1st commit"
-
-git remote add origin https://github.com/varunlaul24/NotesAppBot.git
-
-git push -u origin master
-
-
 ## Acknowledgments
 
 - [Bootstrap](https://getbootstrap.com/) for styling.
@@ -141,4 +117,5 @@ git push -u origin master
 ## Future Enhancements
 
 1. Mark a note as important.
-2. Separate notes by user.
+2. Edit Notes
+3. Separate notes by user.
