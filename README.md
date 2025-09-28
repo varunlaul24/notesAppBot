@@ -10,6 +10,22 @@
 
 This is a simple web-based notes application built with HTML, CSS, and JavaScript. This Magic Notes App aims to provide users with a user-friendly digital notes app for quick and easy note-taking, organisation, and retrieval. Additionally, it includes a chat interface with a Magic Assistant. In the digital age, individuals often find themselves in need of a seamless and efficient way to capture and organize their thoughts, ideas, and important information. Traditional methods of note-taking may lack the flexibility and accessibility required in today's dynamic lifestyle. Users seek a user-friendly and feature-rich digital solution that allows them to create, store, and manage their notes effortlessly, enhancing productivity and ensuring that valuable information is readily available when needed.
 
+## Quick local setup
+
+1. Clone repository and cd into it.
+2. Install dependencies:
+   - npm install
+3. Create a .env file in the project root with your Direct Line secret:
+   - DIRECT_LINE_SECRET=YOUR_DIRECT_LINE_SECRET
+   (See [server.js](server.js) which reads this env var.)
+4. Start the server:
+   - npm start
+5. Open http://localhost:3000 in your browser.
+
+Notes about the bot integration
+- The frontend calls the backend endpoint GET /api/token (implemented in [server.js](server.js)) which exchanges your Direct Line secret for a short-lived token used by Web Chat.
+- Keep the Direct Line secret private. Use the `.env` file and add it to `.gitignore` (already present).
+
 ## Technologies Used
 
 - HTML
@@ -37,6 +53,8 @@ Search Functionality: Implements a search feature that dynamically filters displ
 Interaction with External APIs: Embeds an iframe to integrate a chat interface with a Magic Assistant using the Bot Framework Web Chat API.
 
 - NodeJS
+
+Minimal Node.js backend endpoint to generate Direct Line tokens.
 
 - Azure AI Bot Service
 

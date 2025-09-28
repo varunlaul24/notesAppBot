@@ -22,7 +22,6 @@ app.get("/api/token", async (req, res) => {
         "Authorization": `Bearer ${DIRECT_LINE_SECRET}`
       }
     });
-
     const data = await response.json();
     res.json(data);
   } catch (err) {
